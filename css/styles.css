@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #fbecec;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.75rem;
+  color: #1b262c;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color: #900c3f;
+}
+
+subtitle{
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #cf7500;
+}
+
+a{
+  color: #11999E;
+}
+
+.top-container{
+/*  background-color: #7ea04d;*/
+  position: relative;
+  padding-top: 80px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+hr{
+  margin: 50px auto;
+  border: dotted #3f3f44 6px;
+  border-bottom: none;
+  width: 5%;
+}
+
+.profile{
+  width: 50%;
+  margin: auto;
+}
+.myimg{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.about-me{
+  padding-top: 15px;
+  text-align: left;
+  margin: auto;
+}
+
+.skill-row{
+  margin: 50px auto 100px auto;
+  text-align: left;
+  width: 50%;
+  line-height: 2;
+}
+
+.skill1-img{
+
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.skill2-img{
+  margin: 35px 0 0 0;
+  width: 25%;
+  float: right;
+  border-radius: 50%;
+}
+
+.skill3-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.contact-me{
+  margin: 0 auto 50px;
+}
+
+.contact-msg{
+  width: 40%;
+  margin: 25px auto 40px
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3491d9;
+  padding: 10px 12px 10px 12px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0ac2b9;
+  text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #ffd5cd;
+  padding: 25px 0 5px;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #900c3f;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+
+.footer-link:hover{
+  color: #cf7500;
+}
+
+.copyright{
+  color: #1a1c20;
+  font-size: 0.75rem;
+}
